@@ -1,0 +1,4 @@
+Logging work done on game
+(this worked well on the last attempt)
+(this document is solely intended to log day-by-day details of development. goals/plan are in other documents)
+~~~~~

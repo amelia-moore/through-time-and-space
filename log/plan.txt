@@ -1,0 +1,5 @@
+lessons learned from the last attempt:
+
+- the technical needs of the project have changed now that I know generally what I want to do in my career, namely probably using C++ over C#. so now I'm going to try to code a game in C++
+- the previous plan for the game was very ambitious (and ambiguous) for a first game, and also in retrospect I don't like where I was going with the writing/art and I think I can do better. so this game should start small (at least beginning with the mirror mechanic) and then i can add things from there. 
+- remember to keep the story and game simple -- less is more. stick to one thing, don't try to make twelve. single responsibility principle but amplified!
