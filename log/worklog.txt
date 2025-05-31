@@ -2,8 +2,16 @@ Logging work done on game
 (this worked well on the last attempt)
 (this document is solely intended to log day-by-day details of development. goals/plan are in other documents)
 ~~~~~
+May 31
+
+- Brainstormed more world lore while sleeping, wrote it down. 
+- Understood Space better, came up with a good character for him.
+- Started coding more, got some work done making the background sprite and some code infrastructure (controllers). Need to refactor a bit.
+- Got backdrop to appear onscreen using test image. Images must be max 1024x1024.
+~~~~~
 May 30
 
 - Restarted project with a better and more streamlined plan. Unity/Unreal are big and bulky and daunting for a first game, also the point of this is to make a cool game and learn more C++/VS along the way, so UE5 and Unity are not the best given the goal for the project (and UE5 is too big for my laptop). Decided on C++ and SFML instead.
 - Set up initial VS environment and ensured SFML ran smoothly. Used SFML site for guidance.
 - Storyboarded some character sprites, one based on time, one based on space. Thought over mirror mechanic.
+~~~~~

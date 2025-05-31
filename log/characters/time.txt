@@ -1,0 +1,9 @@
+Time (character profile subject to change)
+
+Profession: some kind of 9-5 worker/salaryman, probably going to end up being developer though.
+
+Personality: type A, neurotic, a little bit perfectionist. Likes routine and order, bit of a clean freak. Cares very much about his appearance, does like a 20 step skincare routine every night. Needs to learn to have some fun, that's what Space influences him about. But also likes to try new things and that's what he provides Space with.
+
+Unique mechanic: Essentially energy, but more like he has a routine and must stick to the routines. So he has a certain number of "significant free actions" where he can divert from routine, and once they're gone you have to wait until the next area for them to regenerate.
+
+Fighting data in case i implement it: probably more magic build, probably uses lists and like psychological torment

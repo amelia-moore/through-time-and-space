@@ -131,7 +131,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="audioController.cpp" />
+    <ClCompile Include="cameraController.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="backdropController.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="stageController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="backdropController.h" />
+    <ClInclude Include="scene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

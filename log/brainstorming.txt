@@ -1,1 +1,3 @@
 - Mirror mechanic. Reflective surfaces act as a menu/save point and some other capabilities. Mirror is an extension, but also allows some flipping or crossing dimensions (space to time, time to space).
+- pick up items mechanic, tutorial bit is time waking up, getting dressed/morning routine, interact with door mechanic (different interaction with interim door vs like a closet door)
+- i think a fight mechanic would be really funny honestly, like literally fighting with appliances and such. all characters have different builds but i think it might be cool to have like a healer switch instead of a designated healer character. maybe still some characters are better healers than others but at least you get the choice then
