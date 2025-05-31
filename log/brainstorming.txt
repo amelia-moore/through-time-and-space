@@ -1,0 +1,1 @@
+- Mirror mechanic. Reflective surfaces act as a menu/save point and some other capabilities. Mirror is an extension, but also allows some flipping or crossing dimensions (space to time, time to space).
