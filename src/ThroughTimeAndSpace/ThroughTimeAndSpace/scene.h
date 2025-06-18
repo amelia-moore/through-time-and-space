@@ -9,17 +9,21 @@ class Scene {
 	// layers are backdrop, stage, camera, probably need audio controller, player interaction controller?
 
 public:
-	Scene(RenderWindow * window) {
+	Scene(RenderWindow * win) {
 		bControl = new BackdropController();
-		bControl->switchBackdrop(0, window);
+		window = win;
+		loadInitialScene(window);
 	}
 
 	~Scene() {
 		delete bControl;
 	}
+
+	int loadScene1(RenderWindow* window);
+	int loadScene2(RenderWindow* window);
 protected: // for now
-	BackdropController* bControl;
+	BackdropController * bControl;
+	RenderWindow* window;
 	//StageController * sControl;
-	//CameraController * cControl;
 	//AudioController * aControl;
 };

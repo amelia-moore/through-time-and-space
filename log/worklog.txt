@@ -2,6 +2,13 @@ Logging work done on game
 (this worked well on the last attempt)
 (this document is solely intended to log day-by-day details of development. goals/plan are in other documents)
 ~~~~~
+June 18
+
+- Created some initial walking sprites for testing, still need to upload those.
+- Created an apartment draft for each character for initial scene
+- Decided structure of code will be at least for now chaining scenes together, and have triggers for leaving each scene to the next. the stage is kind of implied in that or is one object that holds the other controllers that act as singleton controllers. maybe not the most efficient but i think it's a good starting point.
+- general brainstorming to try to pin down a specific direction for the game outside of one mechanic... the previous version was too directed and planned and ambitious, but this version has no point besides a flippy mirror... bit challenging
+~~~~~
 May 31
 
 - Brainstormed more world lore while sleeping, wrote it down. 

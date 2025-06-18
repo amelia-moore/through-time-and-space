@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -137,11 +137,14 @@
     <ClCompile Include="backdropController.cpp" />
     <ClCompile Include="object.cpp" />
     <ClCompile Include="scene.cpp" />
+    <ClCompile Include="sceneController.cpp" />
     <ClCompile Include="stageController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="backdropController.h" />
     <ClInclude Include="scene.h" />
+    <ClInclude Include="sceneController.h" />
+    <ClInclude Include="stageController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
