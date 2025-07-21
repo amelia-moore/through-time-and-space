@@ -1,0 +1,8 @@
+code structure rationale:
+
+Stage object is basically a Game object, but with a different more Unity-esque name. Should act as a scene handler in a sense as well. Have a loadNextScene method that will pass the next scene number back to the current Scene, for it to call its load scene method (then no unnecessary destruction and reconstruction of controller objects). this also allows for branching story in the future if ever needed. For this, stage likely has number of scenes and a current scene, or a vector of scene numbers with a current index that increments along the vector with every scene change.
+
+Scene object is a specific collection of controllers, with its own number and probably the playable character dictating a scene change. It is responsible for sorting and sending asset names to controllers so the respective controller can handle each asset.
+It is also a point at which you cannot go back. You cannot go back to the next scene, this is a linear game.
+
+Sprite is a base class meant for all objects with visual components, including player character, mirrors, mob objects, etc. Methods inside may include rendering an asset, getting/setting the location of the object, getting/setting the dimensions of the object, etc. Actually could also maybe include backdrops except location of the backdrop may be kind of useless.

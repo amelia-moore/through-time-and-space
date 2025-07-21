@@ -2,12 +2,24 @@ Logging work done on game
 (this worked well on the last attempt)
 (this document is solely intended to log day-by-day details of development. goals/plan are in other documents)
 ~~~~~
+July 21
+
+- Read the Effective Modern C++ book and now I realize my code is really bad. Have to refactor and change basically everything (why am i using raw pointers??????? and putting implementations in header files?????).
+- Probably have to reconsider how the game engine structure looks while i refactor the code
+- Settled on a pretty concrete idea of how to begin the game and what some mechanics of the game will look like.
+- Time walking asset draft added
+- Refactored some code to remove most controllers, simplify things down, delete classes i don't care about right now, and create some new classes for objects. Should be slightly more generic and easier to modify and understand now
+- Sprite object added, object object added, backdrop extends off sprite. May need some reworking, particularily in terms of layer being a data member of Sprite? 
+- Need to find an efficient way to store scene and object data, I don't think parsing multiple csv files will be very easy or efficient.
+~~~~~
 June 18
 
 - Created some initial walking sprites for testing, still need to upload those.
 - Created an apartment draft for each character for initial scene
 - Decided structure of code will be at least for now chaining scenes together, and have triggers for leaving each scene to the next. the stage is kind of implied in that or is one object that holds the other controllers that act as singleton controllers. maybe not the most efficient but i think it's a good starting point.
 - general brainstorming to try to pin down a specific direction for the game outside of one mechanic... the previous version was too directed and planned and ambitious, but this version has no point besides a flippy mirror... bit challenging
+- Incorporated some OpenGL
+- Came up with a stage-scene code structure -- scene says specifics, stage has the controllers and sends them the data. Added more controllers for elements of each scene.
 ~~~~~
 May 31
 

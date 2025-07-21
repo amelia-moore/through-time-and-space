@@ -1,0 +1,5 @@
+should be a csv
+
+intended to store data of objects in each scene
+scene num,object name,layer,x loc,y loc,is interactable,isreflective,is mirror,is alive,is player
+maybe but i have to find a better way to store concrete asset info cuz i think parsing through files will take too long

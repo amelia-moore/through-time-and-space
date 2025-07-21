@@ -3,6 +3,8 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
+// fyi most of this is probably getting scrapped with my new base sprite being backdrop plan
+
 using namespace sf;
 using namespace std;
 
@@ -34,18 +36,18 @@ public:
 	};
 
 	void switchBackdrop(int bgNum);
-	void renderCurrentBackdrop(RenderWindow * win);
+	void renderCurrentBackdrop(Window * win);
 protected:
 	int width;
 	int height;
 	int activeTextureEnum;
 	Texture texture;
-	Sprite * sprite;
+	Sprite * sprite; // MAKE THIS A SMART POINTER
 };
 
 class BackdropController {
 protected:
-	Backdrop* activeBackdrop = NULL;
+	Backdrop* activeBackdrop = nullptr; // this should be a smart pointer CHANGE IT
 	enum backdrops {
 		TEST,
 	};
@@ -56,6 +58,6 @@ public:
 	~BackdropController() {
 		delete activeBackdrop;
 	};
-	void switchBackdrop(int bgNum, RenderWindow* win);
+	void switchBackdrop(int bgNum, Window* win);
 
 };

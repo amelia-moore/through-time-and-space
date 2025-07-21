@@ -5,3 +5,7 @@
 a new idea for the start: reinforce the idea of routine. time gets up, tutorial fight with the kettle/coffee maker, time leaves. space gets up, flips over, starts picking up things in time's apartment and tidying up, cooks a bit, flips back over to go out to his job. time gets home, does his night routine, eats, flips to space's apartment to clean his space a bit, then sleeps. space gets home, then sleeps. repeat cycle a couple time to reinforce routine to player. 
 main mechanics: mirror/reflection flipping/menu, pick things up and interact with objects (maybe dialogue if unable to use item in that interaction), rpg style fighting (ala with the kettle).
 on the third time, Time forgot something at work maybe, and Space was sent home early or something and has the car. Time freaks out cuz his routine is broken, and Space is like its not a big deal let's just go get your thing. they leave the apartment to go to the place, calamity ensues. kind of the vibe at the end is leaving your comfort zone/routine (depending on the character) can be a disaster and cause a bunch of headache, but once the disaster vibes are over, you can feel kind of accomplished and grow as a person. maybe
+
+- apparently sfml is good for simple 2d graphics but opengl can do 3d and gives more control over hardware. for the sake of expandability and keeping options open i think i'm going to use opengl for rendering
+
+- maybe make a human reflective lol, might be an interesting puzzle.

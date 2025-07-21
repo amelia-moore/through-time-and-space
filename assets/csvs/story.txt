@@ -1,0 +1,2 @@
+should be converted into a csv
+scene/location,speaker,num of lines to read including this one,dialogue

@@ -1,0 +1,3 @@
+should also be a csv!
+scene number,player character/controllable sprite(ie title page has box),number of assets required for load,array according to previous[type of asset,asset id]
+character/controllable sprite and assets are looked up in respective tables or folders

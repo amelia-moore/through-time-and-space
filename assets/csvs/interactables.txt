@@ -1,0 +1,2 @@
+should be converted into a csv of dialogue options
+item,scene/location,speaker,num of lines to read including this,dialogue
